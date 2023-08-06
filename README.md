@@ -6,7 +6,7 @@
 * This project divides a single application into 4 individual components(micro-services) namely courseservice, facutlyservice, feeservice, studentservice.
 * These 4 micro-services implement CRUD operations on 4 corresponding tables in the MYSQL database.
 * Thereby developing and working on those 4 components(services) separately without having to depend on each other.
-* Thus implementing Microservices Architecture. Also, this project implements circuit breaker using Hyserix.
+* Thus implementing Microservices Architecture. Also, this project implements circuit breaker using Hysterix.
 
 
 ### Detailed Description
