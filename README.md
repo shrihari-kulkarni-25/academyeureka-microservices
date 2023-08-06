@@ -11,7 +11,7 @@
 
 ### Detailed Description
 
-### --------------------------------------------------------------------------------------------------
+### -------------------------------------------------------------------------------------------------------
 
 
 As you can see, there are in total 6 individual spring boot applications, each configured to run on different ports. 4 of these (courseservice, facutlyservice, feeservice, studentservice) will create 4 tables respectively in MY SQL db when started.
