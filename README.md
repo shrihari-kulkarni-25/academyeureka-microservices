@@ -6,6 +6,9 @@ Microservices are an architectural way of software development where the applica
 This project divides a single application into 4 individual components(services) which implement CRUD operations on 4 corresponding tables in MYSQL database, thereby developing and working on those 4 components(services) separately without having to depend on each other, thus implementing Microservices Architecture.
 
 
+
+
+
 ### Detailed Description
 
 As you can see, there are in total 6 individual spring boot applications, each configured to run on different ports. 4 of these (courseservice,facutlyservice,feeservice,studentservice) will create 4 tables respectively in MY SQL db when started.
