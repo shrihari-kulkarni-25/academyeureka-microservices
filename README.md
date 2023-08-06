@@ -1,9 +1,9 @@
 # About Microservices
 
-Microservices are an architectural way of software development where the application is divided into small components (service). It allows the application to break into small parts which helps in solving debugging issues. Thus, it saves from crashing the entire system as you have to just focus on the small component.
+                                      Microservices are an architectural way of software development where the application is divided into small components (service). It allows the application to break into small parts which helps in solving debugging issues. Thus, it saves from crashing the entire system as you have to just focus on the small component.
 
 ## AcademyEureka-Microservices
-This project divides a single application into 4 individual components(micro services) namely courseservice,facutlyservice,feeservice,studentservice which implement CRUD operations on 4 corresponding tables in the MYSQL database, thereby developing and working on those 4 components(services) separately without having to depend on each other, thus implementing Microservices Architecture.
+--                                    This project divides a single application into 4 individual components(micro services) namely courseservice,facutlyservice,feeservice,studentservice which implement CRUD operations on 4 corresponding tables in the MYSQL database, thereby developing and working on those 4 components(services) separately without having to depend on each other, thus implementing Microservices Architecture.
 
 
 
