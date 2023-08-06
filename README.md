@@ -22,6 +22,7 @@ As you can see, there are in total 6 individual spring boot applications, each c
 
 "StudentFacultyCourseFeeService" is an another individual spring-boot application that communicates with all 4 micro-services that are running on different ports. This application implements several REST endpoints that in turn make REST API call to 4 micro-services and return respective data.
 
+### ---------------------------------------------------------------------------------------------
 
 # Usage
 
