@@ -11,18 +11,21 @@
 
 ### Detailed Description
 
+### --------------------------------------------------------------------------------------------------
+
+
 As you can see, there are in total 6 individual spring boot applications, each configured to run on different ports. 4 of these (courseservice, facutlyservice, feeservice, studentservice) will create 4 tables respectively in MY SQL db when started.
 
-### ---------------------------------------------------------------------------------------------
-
-"discoveryservice" is a Eureka server application that holds information about all client-service applications. Every Microservice (courseservice, facutlyservice, feeservice, studentservice) will register into the Eureka server and the Eureka server knows all the client applications running on each port and IP address. Eureka Server is also known as Discovery Server.
-
-### ---------------------------------------------------------------------------------------------
 
 
+### discoveryservice 
+   This is a Eureka server application that holds information about all client-service applications. Every Microservice (courseservice, facutlyservice, feeservice, studentservice) will register into the Eureka server and the Eureka server knows all the client applications running on each port and IP address. Eureka Server is also known as Discovery Server.
+
+
+### StudentFacultyCourseFeeService
 "StudentFacultyCourseFeeService" is an another individual spring-boot application that communicates with all 4 micro-services that are running on different ports. This application implements several REST endpoints that in turn make REST API call to 4 micro-services and return respective data.
 
-### ---------------------------------------------------------------------------------------------
+
 
 # Usage
 
