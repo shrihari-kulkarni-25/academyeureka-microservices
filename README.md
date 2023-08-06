@@ -22,7 +22,10 @@ As you can see, there are in total 6 individual spring boot applications, each c
 
 # Usage
 
-Start the applications in the following order
+Note: Make sure that "discoveryservice" is started first always so that the rest of the micro-services can register themselves when started
+
+
+Start the applications in the following order:
 1) discoveryservice
 2) courseservice
 3) facutlyservice
